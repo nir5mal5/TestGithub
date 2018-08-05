@@ -32,4 +32,11 @@ public class Test
 
 	}
 
+public void 23m1()//instance method
+	
+	{
+		System.out.println(a);
+		System.out.println(Test.c);
+	}
+
 }
