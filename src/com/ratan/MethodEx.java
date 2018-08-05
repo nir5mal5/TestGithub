@@ -5,11 +5,11 @@ class ABC{}
 class Student{}
 public class MethodEx 
 {
- public void m1(XYZ x,Emp e)
+ public void m1(XYZ x,Emp e, Emp z)
  {
 	System.out.println("method one"); 
  }
- public static void m2(ABC a,Student s)
+ public static void m3(ABC a)
  {
 	 System.out.println("method two");
  }
@@ -22,8 +22,8 @@ public class MethodEx
 		
 		m.m1(x, e);
 		ABC a=new ABC();
-		Student s=new Student();
-		MethodEx.m2(a, s);
+		Student s1=new Student();
+		MethodEx.m2(a);
 		MethodEx.m2(new ABC(),new Student()); 
 	}
 
