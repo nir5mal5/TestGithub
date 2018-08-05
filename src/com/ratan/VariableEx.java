@@ -4,17 +4,17 @@ public class VariableEx
 {//instance variable
 	int a=10;
 	int b=20;
-	static void m1()
+	static void m1(gd
 	{
-		VariableEx v=new VariableEx();
-		System.out.println(v.a);
-		System.out.println(v.b);
+		VariabldfgdfgeEx v=new VariableEx();
+		Sysdfgdgdffgtem.out.gprintln(v.a);
+		System.ogdfgdfgut.println(v.b)dfgfdg;
 	}//method completed object destroyed.
 	static void m2()
-	{
-		VariableEx x =new VariableEx();
-		System.out.println(x.a);
-		System.out.println(x.b);
+	{gdfgdfg
+		VariablgdfeEx x =new VariableEx();
+		Systemgf.out.prigdfgntln(x.a);
+		Systgdfem.out.println(x.b);gdfgdfg
 		
 		
 		
