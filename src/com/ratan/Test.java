@@ -5,8 +5,8 @@ public class Test
 	int a=10;
 	int b=20;
 	//ststic variable 
-	static int c=30;
-	static int d=40;
+	static int c=500;
+	static int d=400;
 	public void m1()//instance method
 	
 	{
